@@ -1,5 +1,5 @@
-def read_swears_from_file(file_path):
-    with open(file_path, 'r') as file:
+def read_swears_from_file(swearwords.txt):
+    with open('swearwords.txt', 'r') as file:
         swear_words = [line.strip() for line in file]
     return swear_words
 
